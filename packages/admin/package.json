@@ -1,0 +1,92 @@
+{
+  "name": "admin",
+  "version": "0.0.1",
+  "description": "Miniprogram sdk for admin.",
+  "keywords": [
+    "miniprogram",
+    "wx-sdk",
+    "qrcode"
+  ],
+  "author": "huqi",
+  "homepage": "https://github.com/hu-qi/miniprogram/tree/main/packages/admin#readme",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://repo.huaweicloud.com/repository/npm/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hu-qi/miniprogram.git"
+  },
+  "scripts": {
+    "pretest": "eslint .",
+    "test": "jest"
+  },
+  "bugs": {
+    "url": "https://github.com/hu-qi/miniprogram/issues"
+  },
+  "devDependencies": {
+    "eslint": "^6.0.1",
+    "prettier": "^1.18.2",
+    "husky": "^3.0.1",
+    "lint-staged": "^9.2.0",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-config-xo": "^0.26.0",
+    "jest": "^24.8.0"
+  },
+  "engines": {
+    "npm": ">= 4.0.0"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ],
+    "*.json": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "eslintConfig": {
+    "extends": [
+      "xo",
+      "prettier"
+    ],
+    "env": {
+      "jest": true,
+      "node": true
+    },
+    "rules": {
+      "prettier/prettier": "error",
+      "capitalized-comments": "warn",
+      "camelcase": "warn"
+    },
+    "plugins": [
+      "prettier"
+    ]
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "jimp": "^0.8.4",
+    "jsdom": "^15.2.0",
+    "lodash": "^4.17.15",
+    "log4js": "^5.2.2",
+    "moment": "^2.24.0",
+    "node-fetch": "^2.6.0",
+    "prompt-sync": "^4.1.7",
+    "qrcode-reader": "^1.0.4",
+    "qrcode-terminal": "^0.12.0",
+    "url": "^0.11.0"
+  }
+}

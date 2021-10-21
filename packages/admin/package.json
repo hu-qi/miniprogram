@@ -1,6 +1,6 @@
 {
   "name": "@miniprogram-sdk/admin",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Miniprogram sdk for admin.",
   "keywords": [
     "miniprogram",

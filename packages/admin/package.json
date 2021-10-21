@@ -19,7 +19,7 @@
     "lib"
   ],
   "publishConfig": {
-    "registry": "https://repo.huaweicloud.com/repository/npm/"
+    "access": "public"
   },
   "repository": {
     "type": "git",
@@ -89,5 +89,5 @@
     "qrcode-terminal": "^0.12.0",
     "url": "^0.11.0"
   },
-  "gitHead": "13b3687da6d69f91944e0721ba3dcbfc52ed0c26"
+  "gitHead": "993f511ba14f5b6cc653b82de28297173c08f4d8"
 }

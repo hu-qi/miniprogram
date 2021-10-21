@@ -1,5 +1,5 @@
 {
-  "name": "@miniprogram/admin",
+  "name": "@miniprogram-sdk/admin",
   "version": "0.0.2",
   "description": "Miniprogram sdk for admin.",
   "keywords": [
@@ -89,5 +89,5 @@
     "qrcode-terminal": "^0.12.0",
     "url": "^0.11.0"
   },
-  "gitHead": "35de868e987843a47bf225ec1a6f3fa248a3b142"
+  "gitHead": "0443e997bf293910eaf93202f9f365db6e884c7e"
 }

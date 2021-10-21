@@ -88,5 +88,6 @@
     "qrcode-reader": "^1.0.4",
     "qrcode-terminal": "^0.12.0",
     "url": "^0.11.0"
-  }
+  },
+  "gitHead": "13b3687da6d69f91944e0721ba3dcbfc52ed0c26"
 }

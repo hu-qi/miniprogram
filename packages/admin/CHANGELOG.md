@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.3](https://github.com/hu-qi/miniprogram/compare/@miniprogram-sdk/admin@0.1.2...@miniprogram-sdk/admin@0.1.3) (2021-10-22)
+
+**Note:** Version bump only for package @miniprogram-sdk/admin
+
+
+
+
+
 ## [0.1.2](https://github.com/hu-qi/miniprogram/compare/@miniprogram-sdk/admin@0.1.1...@miniprogram-sdk/admin@0.1.2) (2021-10-22)
 
 
